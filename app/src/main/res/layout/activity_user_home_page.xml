@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bgcolor"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:text="USER HOME PAGE" />
+
+    <Button
+        android:id="@+id/btn_my_courses"
+        android:layout_width="match_parent"
+        android:text="My Courses"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:textSize="22dp"/>
+
+    <Button
+        android:id="@+id/btn_available_courses"
+        android:layout_width="match_parent"
+        android:text="Available Courses"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:textSize="22dp"/>
+
+</LinearLayout>
+
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:id="@+id/main"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:background="@color/bgcolor"-->
+<!--    tools:context=".UserHomePage">-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView3"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="70dp"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_marginStart="40dp"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:layout_marginEnd="41dp"-->
+<!--        android:fontFamily="sans-serif-medium"-->
+<!--        android:gravity="center"-->
+<!--        android:text="User HomePage"-->
+<!--        android:textSize="34sp"-->
+<!--        android:textStyle="bold" />-->
+
+
+<!--    <Button-->
+<!--        android:id="@+id/MyCourseButton"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="70dp"-->
+<!--        android:layout_below="@+id/textView3"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_marginStart="60dp"-->
+<!--        android:layout_marginTop="70dp"-->
+<!--        android:text="My Courses"-->
+<!--        android:onClick="UserMyCourse"-->
+<!--        android:textSize="22sp" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/AvailableCourseButton"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="70dp"-->
+<!--        android:layout_below="@+id/MyCourseButton"-->
+<!--        android:layout_alignStart="@+id/MyCourseButton"-->
+<!--        android:layout_marginStart="0dp"-->
+<!--        android:layout_marginTop="40dp"-->
+<!--        android:text= "Available Courses"-->
+<!--        android:textSize="22sp" />-->
+
+<!--</RelativeLayout>-->

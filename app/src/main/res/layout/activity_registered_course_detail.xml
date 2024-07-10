@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bgcolor"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTERED COURSE DETAILS"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:id="@+id/course_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Course Name"
+        android:textSize="22dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/course_cost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Course Cost"
+        android:textSize="22dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/course_branch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Branch"
+        android:textSize="22dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/course_starting_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Starting Date"
+        android:textSize="22dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_width="wrap_content"
+        android:text="Delete"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:textSize="22dp"/>
+
+</LinearLayout>
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:orientation="vertical"-->
+<!--    android:background="@color/bgcolor"-->
+<!--    android:padding="16dp">-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/course_name"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Course Name"-->
+<!--        android:textSize="18sp"-->
+<!--        android:layout_marginBottom="8dp"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/course_cost"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Course Cost"-->
+<!--        android:textSize="18sp"-->
+<!--        android:layout_marginBottom="8dp"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/course_branch"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Course Branch"-->
+<!--        android:textSize="18sp"-->
+<!--        android:layout_marginBottom="8dp"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/course_starting_date"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Starting Date"-->
+<!--        android:textSize="18sp"-->
+<!--        android:layout_marginBottom="8dp"/>-->
+<!--</LinearLayout>-->
